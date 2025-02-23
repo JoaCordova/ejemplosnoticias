@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    background-color: #2A2D36;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    margin-bottom: 10px; /* Espacio reducido entre "Noticias" y la siguiente sección */
+    color: #FFFFFF;
+  }
+  
+  /* Encabezados de sección */
+  #medios-extranjeros h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #FF8786;
+  }
+  
+  #medios-nacionales h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #978CEA;
+  }
+  
+  /* Estilos para Medios Extranjeros */
+  #medios-extranjeros .news-item {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #FF8786;
+  }
+  
+  #medios-extranjeros .news-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+  }
+  
+  /* Estilos para Medios Nacionales */
+  #medios-nacionales .news-item {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #978CEA;
+  }
+  
+  #medios-nacionales .news-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+  }
+  
+  /* Contenedor para la bandera y el título */
+  .news-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Banderas más pequeñas */
+  .flag {
+    width: 20px;
+    height: auto;
+  }
+  
+  /* Diseño responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    #medios-extranjeros .news-title,
+    #medios-nacionales .news-title {
+      font-size: 1.1em;
+    }
+    /* Se elimina el cambio a columna para mantener la bandera al lado */
+  }
+  .custom-link {
+    color: #f1f0ff; /* Color personalizado */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  
+  .custom-link:hover {
+    color: #FF8786; /* Cambia el color cuando el enlace es seleccionado con el cursor */
+    text-decoration: underline; /* O subrayado al pasar por encima, si prefieres */
+  }
+  .github-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .github-link a {
+    text-decoration: none;
+  }
+  
+  .github-icon {
+    width: 40px; /* Tamaño del icono */
+    height: auto;
+  }
+  
